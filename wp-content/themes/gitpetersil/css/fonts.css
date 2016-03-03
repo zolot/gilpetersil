@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "SF-UI-Display-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SF-UI-Display-Regular.woff") format("woff"), url("../fonts/SF-UI-Display-Regular.ttf") format("truetype"), url("../fonts/SF-UI-Display-Regular.svg#SF-UI-Display-Regular") format("svg");
+}
+
+@font-face {
+  font-family: "SF-UI-Display-Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/SF-UI-Display-Bold.woff") format("woff"), url("../fonts/SF-UI-Display-Bold.ttf") format("truetype"), url("../fonts/SF-UI-Display-Bold.svg#SF-UI-Display-Bold") format("svg");
+}
+
+@font-face {
+  font-family: "SF-UI-Display-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/SF-UI-Display-Light.woff") format("woff"), url("../fonts/SF-UI-Display-Light.ttf") format("truetype"), url("../fonts/SF-UI-Display-Light.svg#SF-UI-Display-Light") format("svg");
+}
+
+@font-face {
+  font-family: "SF-UI-Text-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SF-UI-Text-Regular.woff") format("woff"), url("../fonts/SF-UI-Text-Regular.ttf") format("truetype"), url("../fonts/SF-UI-Text-Regular.svg#SF-UI-Text-Regular") format("svg");
+}
+
+@font-face {
+  font-family: "SF-UI-Text-Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/SF-UI-Text-Bold.woff") format("woff"), url("../fonts/SF-UI-Text-Bold.ttf") format("truetype"), url("../fonts/SF-UI-Text-Bold.svg#SF-UI-Text-Bold") format("svg");
+}
+
+@font-face {
+  font-family: "SF-UI-Text-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/SF-UI-Text-Light.woff") format("woff"), url("../fonts/SF-UI-Text-Light.ttf") format("truetype"), url("../fonts/SF-UI-Text-Light.svg#SF-UI-Text-Light") format("svg");
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/RalewaySemiBold/RalewaySemiBold.woff") format("woff"), url("../fonts/RalewaySemiBold/RalewaySemiBold.ttf") format("truetype"), url("../fonts/RalewaySemiBold/RalewaySemiBold.svg#Raleway") format("svg");
+}
