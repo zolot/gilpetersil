@@ -2,6 +2,28 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+#open-possibility .descr {
+    margin-top: 0;
+}
+#open-possibility .descr p {
+    margin: 0 0 20px; 
+}
+.tp-leftarrow {
+    left: -30px !important;
+}
+.tp-rightarrow {
+    left: 100% !important;
+}
+#blog-all .wrap .btn-wrap, #video-all .wrap .btn-wrap {
+    padding: 0 20px;
+}
+
+#blog-all .wrap h4{
+    padding: 0 20px;
+} 
+#video-all .wrap h4 {
+    padding: 0;
+}
 
 }
 
@@ -16,7 +38,7 @@
 }
 }
 
-@media only screen and (max-width : 900px) {
+@media only screen and (max-width : 915px) {
     header .info-line .logo {
         float: none;
         display: block;
@@ -32,24 +54,175 @@
         padding-top: 0px;
     }
     header .menu li a {
-        padding: 0 30px;
+        padding: 16px 30px;
+    }
+}
+
+@media only screen and (max-width : 815px) {
+    #programs .programs-wrap li {
+        width: 90%;
+        height: auto;
+    }
+    #video-all .wrap h4,
+    #blog-all .wrap h4 {
+        font-size: 16px;
+    }
+    #blog-all .wrapper, #video-all .wrapper, #video-previev .videos {
+        display: block;
+    }
+    #blog-all .wrap, #video-all .wrap, #video-previev .wrap {
+        display: block;
+        width: 98%;
+        margin-bottom: 35px;
+        padding-bottom: 20px;
+    }
+    #blog-all .wrap .thumb-wrap, #video-all .wrap .thumb-wrap, #video-previev .wrap .thumb-wrap {
+        width: 47%;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 2%;
+    }
+    #blog-all .wrap .descr, #video-all .wrap .descr, #video-previev .wrap .descr {
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    #blog-all .wrap .btn-wrap, #video-all .wrap .btn-wrap, #video-previev .wrap .btn-wrap {
+        position: inherit;
+    }
+    #blog-all .wrap h4, #video-all .wrap h4, #video-previev .wrap h4 {
+        margin: 0 0 10px;
+    }
+    #video-all .wrap .btn-wrap {
+        padding: 0;
+    }
+    .info-wrap {
+        padding: 60px 30px;
     }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
     header .menu li a {
-        padding: 0 20px;
+        padding: 16px 20px;
+    }
+    h3 {
+        margin-bottom: 50px;
+    }
+    section {
+        padding: 50px 0;
+    }
+    #rev_slider_1_1 .uranus.tparrows:before {
+    font-size: 25px !important;
+}
+    #open-possibility .descr, #open-possibility img {
+        float: none;
+        width: 100%;
+    }
+    
+    #about-gil .gil-bxslider img {
+        display: block;
+        width: auto;
+        max-width: 100%;
+        margin: 0 auto 25px;
+    }
+    #about-gil .gil-bxslider .descr {
+        display: block;
+        width: 90%;
+        margin: 0 auto
+    }
+    .gil-bxslider {
+        max-width: 95%;
+    }
+    #about-gil .bx-controls {
+        display: block;
+    }
+    #about-gil #bx-pager-scheme {
+        display: none;
+    }
+    #about-gil .gil-bxslider li {
+        padding: 0
+    }
+    
+    footer .col:first-child {
+        float: none;
+        width: 100%;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    footer .col:nth-child(2), footer .col:nth-child(3) {
+        width: 48%;
+    }
+    
+    footer .col .social {
+        display: inline-block;
+        margin: 0;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        vertical-align: middle;
+    }
+    .logo-footer {
+        text-align: center;
+        margin-bottom: 25px;
+        display: block;
+    }
+
+    footer .contacts {
+        display: inline-block;
+    }
+    footer .col .contacts ul li {
+        display: inline-block;
+        margin-bottom: 25px;
+        margin-right: 25px;
+        vertical-align: middle;
+    }
+
+}
+@media screen and (min-width : 480px) and (max-width : 815px) {
+    #blog-all .wrap .btn-wrap , #video-all .wrap .btn-wrap {
+        padding: 0;
+        width: 47%;
+        right: 12px;
+        bottom: 20px;
+        left: 50%;
+        position: absolute;
+    }
+    #blog-all .data {
+        position: absolute;
+        right: 0px;
     }
 }
 
-@media only screen and (max-width : 630px) {
+@media only screen and (max-width : 648px) {
 header .info-line .descr-wrap .arrov {
     display: none;
 }
+header .menu {
+    display: none;
+}
+header #main-menu .btn-wrap {
+    display: block;
+}
+header .menu li {
+    display: block;
+    width: 100%;
+}
+header .menu li a {
+    width: 100%;
+    border-bottom: 1px solid #eaeaea
+}
+header .menu li .sub-menu {
+    position: relative;
+    display: block;
+    top: 0
+}
+header .menu li .sub-menu a {
+    font-size: 12px;  
+    padding: 13px 20px 13px 27px;
+}
 }
 
-@media only screen and (max-width : 570px) {
+@media only screen and (max-width : 580px) {
 header .info-line .descr-wrap {
     text-align: center;
     padding: 20px 9%;
@@ -66,7 +239,31 @@ header .info-line .descr-wrap .get {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    h3 {
+        font-size: 30px;
+    }
+    #programs .programs-wrap li {
+        width: 97%;
+    }
+    #programs .programs-wrap .descr {
+        top: 8%
+    }
+    #blog-all .wrap .thumb-wrap, #video-all .wrap .thumb-wrap, #video-previev .wrap .thumb-wrap {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #blog-all .wrap .descr, #video-all .wrap .descr, #video-previev .wrap .descr {
+        width: 100%;
+    }
+    header .top-line ul li:first-child:after {
+        display: none;
+    }
+    header .top-line ul li {
+        padding-right: 10px;
+    }
+    header .top-line ul li p {
+        font-size: 12px;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -94,7 +291,33 @@ header .info-line .descr-wrap .get {
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+#programs .programs-wrap li a {
+    background: transparent;
+}
+#programs .programs-wrap li:hover a {
+  background: rgba(0, 0, 0, 0.5);
+}
 
+#programs .programs-wrap li a .descr {
+  top: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#programs .programs-wrap li:hover .descr {
+  top: 20%;
+  opacity: 1;
+}
+#programs .programs-wrap li a .more {
+  bottom: -45px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0;
+}
+#programs .programs-wrap li:hover .more {
+  bottom: 8%;
+  opacity: 1;
+}
 }
 
  /* Large Devices, Wide Screens */

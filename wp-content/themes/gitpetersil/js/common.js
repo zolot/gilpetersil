@@ -1,13 +1,21 @@
 $(document).ready(function() {
 
-	//Слайдер на главной
-    $('.main-slider-wrap').owlCarousel({
-        loop:true,
-        nav:false,
-        items: 1,
-        animateOut: 'fadeOut',
-        smartSpeed: 300
-    });
+    //Слайдер О Гиле
+    $('.gil-bxslider').bxSlider({
+		pagerCustom: '#bx-pager-scheme',
+		mode: 'fade',
+		prevText: '<i class="fa fa-angle-left"></i>',
+		nextText: '<i class="fa fa-angle-right"></i>'
+	});
+
+		$("#menu-button").click(function() {
+		$(".menu").slideToggle();
+	});
+
+		$('.popup').magnificPopup({
+	         removalDelay: 300,
+	         mainClass: 'mfp-fade'
+		});
 
 	
 });
