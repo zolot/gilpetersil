@@ -8,6 +8,7 @@
 			 <?php endwhile; endif; wp_reset_query(); ?>
 			
 		</section>
+
 		<section id="clients">
 			<div class="container">
 				<h3><?php echo get_cat_name(4); ?>:</h3>
@@ -105,7 +106,7 @@
 		
 
 		<div class="hidden"></div>
-		<?php
+		<!-- <?php
             /*global $wp_query;*/
 
             $big = 999999999; // need an unlikely integer
@@ -127,7 +128,7 @@
              if(function_exists('genarate_ajax_pagination'))
              genarate_ajax_pagination('Посмотреть еще...', 'blue','content');
              ?>
-            <?php endif; ?>
+            <?php endif; ?> -->
 
         </div>
     </div>
