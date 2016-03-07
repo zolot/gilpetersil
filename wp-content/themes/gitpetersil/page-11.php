@@ -26,26 +26,18 @@
                                         }
                                         
                                     };
-                                    ?>      
-
+                                    ?>    
 
                             
                             <div class="clear"></div>
                         </div>
-                    </div>
-                    
+                    </div>                    
                 </a>
+                
             <?php endwhile; endif; ?>
 
-            <div class="pagin">
-            <?php echo $wp_query->max_num_pages ?>
-                <?php if ($wp_query->max_num_pages > 1) : ?>
-                <?php
-                    if(function_exists('genarate_ajax_pagination'))
-                        genarate_ajax_pagination('Посмотреть еще...', 'blue','content');
-                ?>
-                <?php endif; ?>
-            </div>
+            <div id="pagination"><?php next_posts_link(__('Показать еще')); ?></div>
+
         </div>
     </div>
     

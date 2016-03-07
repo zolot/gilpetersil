@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/libs/owl/owl.carousel.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/libs/magnific/magnific-popup.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/libs/bootstrap.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/libs/mCustomScrollbar/jquery.mCustomScrollbar.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/libs/font-awesome-4.2.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/fonts.css" />
@@ -25,9 +26,12 @@
     <script src="<?php echo get_template_directory_uri(); ?>/libs/owl/owl.carousel.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/libs/bxslider/jquery.bxslider.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/common.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
     <script src="http://localhost/GilPetersil/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.navigation.min.js"></script>
-    <?php wp_head(); ?>
-        
+    <?
+ wp_enqueue_script('cookie', get_template_directory_uri() . '/js/jquery.cookie.js', 'jquery', false);
+ wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js', 'jquery', false);
+ ?> 
 </head>
 <body>
     <header>
